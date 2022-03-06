@@ -1,14 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Clean Nextjs Tailwind Template</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+    <div className="h-screen overflow-hidden bg-black">
+      <main className="">
+        <Sidebar />
+        {/* Center */}
+      </main>
+
+      <div>{/* Player */}</div>
     </div>
   )
 }
