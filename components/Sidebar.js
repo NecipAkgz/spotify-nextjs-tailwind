@@ -34,7 +34,7 @@ function Sidebar() {
           onClick={() => signOut()}
         >
           <HomeIcon className="h-5 w-5" />
-          <p>Cik Git</p>
+          <p>Anasayfa</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white ">
           <SearchIcon className="h-5 w-5" />
